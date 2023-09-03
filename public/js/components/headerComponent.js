@@ -4,7 +4,7 @@ export const HeaderComponent = () => `
         <li class="prods"><a href="http://localhost:3000/" target="">Productos</a></li>
         <li class="instagram-header"><a href="https://www.instagram.com/matesberazategui/" target="_blank">Instagram</a></li>
         <li class="logo-li"><a href="http://localhost:3000/"><img src="https://i.imgur.com/UIhWZy5.png" alt="Mates Berazategui" class="logo"></a></li>
-        <li class="admin"><a href="http://localhost:3000/admin">Administrador</a></li>
+        <li class="admin"><a href="http://localhost:3000/contacto">Contacto</a></li>
         <li class="search">
             <div class="search-div">
                 <button class="button-search" id="button_search" ></button>

@@ -1,0 +1,15 @@
+section {
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 2%;
+}
+
+.contacto_info{
+    background-color: red;
+}
+
+.contacto_info ul{
+   list-style: none;
+}
+/* Estilos adicionales según sea necesario */

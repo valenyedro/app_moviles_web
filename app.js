@@ -17,6 +17,11 @@ router.get('/producto/:id',function(req,res){
 router.get('/admin',function(req,res){
   res.sendFile(path.join(__dirname+"/public/view/admin.html"));
 })
+
+router.get('/contacto',function(req,res){
+  res.sendFile(path.join(__dirname+"/public/view/contacto.html"));
+})
+
 //add the router
 app.use(express.static(__dirname + '/public'))
 app.use('/', router);
