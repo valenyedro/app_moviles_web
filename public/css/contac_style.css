@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section {
     background-color: none;
     display: inline-block;
@@ -45,6 +51,7 @@ form button{
     display: block;
     margin-bottom: 15px;
     background-color: white;
+    border-radius: 3px;
 }
 
 form button{
